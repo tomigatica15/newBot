@@ -25,7 +25,7 @@
 
 ## Instalación
 1. Clona este repositorio:
-   ```bash
+   ```
    git clone https://github.com/tomigatica15/newbot.git
    ```
 2. Instala las dependencias:
