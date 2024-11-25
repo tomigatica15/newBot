@@ -26,7 +26,7 @@
 ## Instalación
 1. Clona este repositorio:
    ```bash
-   git clone https://github.com/tomigatica15/newbot.git
+   [git clone https://github.com/tomigatica15/newbot.git](https://github.com/tomigatica15/newBot.git)
    ```
 2. Instala las dependencias:
  ``` npm install ```
