@@ -51,7 +51,7 @@
 1. Inicia el bot:
     ```node index.js```
 2. En Discord, usa los comandos disponibles:
-    ```/info:``` Recibe información básica del bot.
+    ```/info:``` Recibe información básica del bot. \n
     ```/ping:``` Verifica la latencia del bot.
 
 ---
