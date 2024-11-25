@@ -32,12 +32,13 @@
  ``` npm install ```
 3. Configura las variables de entorno:
     Crea un archivo .env en la raiz del proyecto:
+    ```
     BOT_TOKEN=tu-bot-token
     CLIENT_ID=tu-client-id
     GUILD_ID=tu-guild-id
-
+    ```
     Reemplaza tu-bot-token, tu-client-id, y tu-guild-id con los valores correspondientes de tu aplicación en el Portal de Desarrolladores de Discord. [https://discord.com/developers/applications]
-4. Registra los comandos en Discord:
+5. Registra los comandos en Discord:
     node deploy-commands.js
 
 ---
@@ -52,7 +53,8 @@
 ## Agregar nuevos comandos
 1. Crea un nuevo archivo en el directorio commands/, por ejemplo: hello.js
 2. Define el comando:
-    ```module.exports = {
+    ```
+    module.exports = {
         name: "hello",
         description: "Responde con un saludo",
         options: [],
