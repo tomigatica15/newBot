@@ -37,8 +37,13 @@
     CLIENT_ID=tu-client-id
     GUILD_ID=tu-guild-id
     ```
-    Reemplaza tu-bot-token, tu-client-id, y tu-guild-id con los valores correspondientes de tu aplicación en el Portal de Desarrolladores de Discord. [https://discord.com/developers/applications]
-5. Registra los comandos en Discord:
+4. Reemplaza tu-bot-token, tu-client-id, y tu-guild-id con los valores correspondientes de tu aplicación en el Portal de Desarrolladores de Discord. [https://discord.com/developers/applications]
+5. Invita a tu bot a tu servidor
+  Tienes que colocar el client_id
+   ```
+   https://discord.com/oauth2/authorize?client_id=CLIENT_ID&scope=bot%20applications.commands&permissions=274877906944
+   ```
+6. Registra los comandos en Discord:
     node deploy-commands.js
 
 ---
